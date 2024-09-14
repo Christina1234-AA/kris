@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>.</title>
+</head>
+<body class="root">
+
+    <header class="header">
+        <img src="img/LOGO (1).svg" alt="img" class="header__icon">
+        <nav class="navigation navigation--header">
+            <ul class="list navigation__list">
+                <li class="list-item navigation__list-item">
+                    <a href="#title-page" class="navigation__item-link"><span class="navigation__item-span">Главная</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#menu" class="navigation__item-link"><span class="navigation__item-span">Меню</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#history" class="navigation__item-link"><span class="navigation__item-span">О нас</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#ordering" class="navigation__item-link"><span class="navigation__item-span">Бронь</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#dishes" class="navigation__item-link"><span class="navigation__item-span">Магазин</span></a>
+                </li>
+            </ul>
+            <address class="address navigation__address--header">
+                <a href="tel:+9998887654" class="address__telephone address__telephone--header"><img src="img/phone-receiver.png" alt="Какая-то трубка" class="address__telephone-icon"> +999-888-76-54</a>
+                <p class="address__description address__description--header">Свяжитесь с нами для бронирования</p>
+            </address>
+            <button class="btn navigation__btn">Заказ столика</button>
+        </nav>
+        <div class="menu-burger">
+            <input type="checkbox" class="menu-burger__checkbox" id="burger-button">
+            <label for="burger-button" class="menu-burger__label"></label>
+            <span class="menu-burger__span menu-burger__span--first"></span>
+            <span class="menu-burger__span menu-burger__span--second"></span>
+            <span class="menu-burger__span menu-burger__span--third"></span>
+            <span class="menu-burger__span menu-burger__span--fourth"></span>
+            <nav class="navigation menu-burger__navigation">
+                <ul class="list navigation__list menu-burger__list">
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#title-page" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Главная</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#menu" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Меню</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#history" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">О нас</span>
+                        <a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#ordering" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Бронь</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#dishes" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Магазин</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="content">
+
+        <section class="title-page" id="title-page">
+            <div class="title-page__cover">
+                <div class="title-page__cover-title">
+                    <h1 class="title title-page__title">
+                        Добро пожаловать в
+                        <span class="title title-page__title--span">Наш ресторан</span>
+                    </h1>
+                </div>
+                <div class="title-page__cover-title--mobile">
+                    <h1 class="title title-page__title">Добро пожаловать
+                        <span class="title title-page__title--span">В наш ресторан</span>
+                    </h1>
+                </div>
+                <div class="subtitle-cover">
+                    <span class="title-page__line"></span>
+                    <h2 class="subtitle title-page__subtitle">Дом лучшей еды</h2>
+                    <span class="title-page__line"></span>
+                </div>
+               
+            </div>
+            <ul class="list title-page__list">
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption  title-page__figure-figcaption">Магическая <span class="figcaption-span title-page__figcaption-span">Атмосфера</span></figcaption>
+                    </figure>
+                    <p class="item-description">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+                </li>
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption title-page__figure-figcaption">Лучшее качество <span class="figcaption-span title-page__figcaption-span">Еды</span></figcaption>
+                    </figure>
+                    <p class="item-description">Качество нашей 
+                        Еды - отменное!
+                        </p>
+                </li>
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption title-page__figure-figcaption">Недорогая <span class="figcaption-span title-page__figcaption-span">Еда</span></figcaption>
+                    </figure>
+                    <p class="item-description">Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</p>
+                </li>
+            </ul>
+        </section>
+       
+        <section class="history" id="history">
+            <div class="history__cover--text">
+                <h2 class="title history__title"><span class="title-span">Наша</span> История</h2>
+                <p class="text history__text">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+                <ul class="list history__list">
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">93</p>
+                        <p class="history__item-text">Напитки</p>
+                    </li>
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">206</p>
+                        <p class="history__item-text">Еда</p>
+                    </li>
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">71</p>
+                        <p class="history__item-text">Закуски</p>
+                    </li>
+                </ul>
+           
+</body>
+</html>
